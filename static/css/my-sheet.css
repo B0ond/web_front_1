@@ -1,7 +1,15 @@
 .nav-link {
-    color: aquamarine;
+    color: #99b9ad;
 }
 
 .navbar-nav .nav-link.active {
-    color: #b0b0b0;
+    color: #d2c5c5;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: #949298;
 }
