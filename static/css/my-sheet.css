@@ -1,5 +1,8 @@
-.body {
-    background: radial-gradient(#6d64ed 1%, #6156ae 100%);
+
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+body {
+    font-family: Michroma, serif;
 }
 
 .nav-link {
@@ -15,9 +18,26 @@
 }
 
 .navbar-toggler {
-    background-color: #949298;
+    background-color: #5b37ad;
 }
 
 .btn-outline-success {
     background-color: #e6f8e6;
+}
+
+.sidebar{
+    color: black;
+    background: radial-gradient(#faefae 1%, #a2a079 100%);
+    box-shadow: 0 0 13px 3px #050505;
+}
+
+
+.card-img-top {
+    max-width: 500px; /* Максимальная ширина контейнера */
+    max-height: 200px; /* Максимальная высота контейнера */
+    object-fit: cover; /* Скрывает содержимое, которое выходит за пределы контейнера */
+}
+
+.card {
+    background: radial-gradient(#faefae 1%, #a2a079 100%);
 }
