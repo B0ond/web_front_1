@@ -1,3 +1,7 @@
+.body {
+    background: radial-gradient(#6d64ed 1%, #6156ae 100%);
+}
+
 .nav-link {
     color: #99b9ad;
 }
@@ -12,4 +16,8 @@
 
 .navbar-toggler {
     background-color: #949298;
+}
+
+.btn-outline-success {
+    background-color: #e6f8e6;
 }
